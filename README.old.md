@@ -1,2 +1,0 @@
-# walkme
-test task
