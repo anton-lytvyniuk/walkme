@@ -9,7 +9,6 @@ const initialState = {
 };
 
 const VideoSearchReducer = (state = initialState, action) => {
-    console.log(state, action.payload, action.type)
     switch (action.type) {
         case types.UPDATE_SEARCH_LINE: 
             return { ...state, value: action.payload, showTogle: 'auto' };
